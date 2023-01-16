@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* background-color: lightsalmon; */
+    max-width: 80vw;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px 15px;
+    font-size: 1.5rem;
+}
+
+.topright{
+    float: left;
+    width: 50%;
+}
+
+.topleft{
+    float: left;
+    margin: 80px 0px;
+    padding: 15px;
+    width: 50%;
+}
+
+.Section1{
+     max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: #b87f3c
+
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.dumbellimg{
+    width: 150px;
+}
+
+.gymimg{
+    width: 350px;
+}
+
+.section2{
+    padding: 0px 60px;
+}
+
+.section2 h1{
+    padding: 15px 0px;
+    font-size: 2.5rem;
+}
+
+.box{
+    padding: 5px 0px;
+    margin: 10px 25px;
+    border: 2px solid orange;
+    min-width: 23vw;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    font-size: 1.5rem;
+    margin: 6px 2px;
+}
+.section3 h1{
+    font-size: 2.5rem;
+    padding: 15px 0px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 80vw;
+    font-size: 1.5rem;
+    margin: 40px 0px;
+}
+
+.table th{
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+
+}
+.table td{
+    border-bottom: 2px solid black;
+
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
